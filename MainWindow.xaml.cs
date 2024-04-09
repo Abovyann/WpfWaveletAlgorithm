@@ -46,12 +46,11 @@ namespace WpfApp1
                 InitializeGrid();
                 if (FindPath())
                 {
-                    // Console.WriteLine("Path found!"); // Remove or comment out 
-                    // PrintGrid(); // Remove or comment out
+                 Console.WriteLine("Path found!");
                 }
                 else
                 {
-                    // Console.WriteLine("No path found."); // Remove or comment out
+                 Console.WriteLine("No path found.");
                 }
             }
 
